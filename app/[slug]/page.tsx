@@ -41,7 +41,7 @@ export default function Blog({ params }) {
   }
 
   return (
-    <section>
+    <section className="prose dark:prose-invert">
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -60,10 +60,8 @@ export default function Blog({ params }) {
           }),
         }}
       />
-      <h1 className="title font-semibold text-2xl tracking-tighter">
-        {post.metadata.title}
-      </h1>
-      <article className="prose">
+      <h1>{post.metadata.title}</h1>
+      <article>
         <CustomMDX source={post.content} />
       </article>
     </section>

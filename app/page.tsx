@@ -11,7 +11,6 @@ export default async function Page() {
           - Bruce Lee
         </figcaption>
       </figure>
-
       <Notes />
     </section>
   );

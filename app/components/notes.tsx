@@ -11,7 +11,7 @@ export function Notes() {
         .map((post) => (
           <Link
             key={post.slug}
-            className="w-full flex flex-col text-neutral-900 dark:text-neutral-100 tracking-tight"
+            className="w-full flex flex-col text-neutral-900 dark:text-neutral-100"
             href={`/${post.slug}`}
           >
             {post.metadata.title}
