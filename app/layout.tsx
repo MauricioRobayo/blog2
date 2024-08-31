@@ -9,8 +9,8 @@ import Link from "next/link";
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Next.js Portfolio Starter",
-    template: "%s | Next.js Portfolio Starter",
+    default: "Mauricio Robayo",
+    template: "%s | Mauricio Robayo",
   },
   description: "Mauricio Robayo.",
   openGraph: {
